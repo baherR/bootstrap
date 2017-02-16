@@ -4,3 +4,15 @@
 .position-carousel{
 	margin-top: -20px;
 }
+footer{
+    background: #222222;
+    color: #ffffff;
+}
+
+footer li{
+	list-style-type: none;
+}
+
+footer li a{
+	color: #9d9d9d;
+}
