@@ -16,3 +16,15 @@ footer li{
 footer li a{
 	color: #9d9d9d;
 }
+
+.content-fluid{
+	max-width: 1200px;
+}
+
+.nav > li > a {
+
+    padding: 10px 14px;
+}
+.navbar {
+    border-radius: 0px;
+}
