@@ -21,10 +21,42 @@ footer li a{
 	max-width: 1200px;
 }
 
-.nav > li > a {
-
-    padding: 10px 14px;
-}
 .navbar {
     border-radius: 0px;
+}
+
+.nav > li > a {
+    padding: 10px 14px;
+}
+
+.align-search-nav-bar{
+	float: left;
+	margin-left: 16px;
+	z-index: 20
+}
+
+.title-site{
+
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.m-t-20{
+	margin-top:-20px 
+}
+
+.carousel-caption
+{
+	background: #4445C5;
+opacity: 0.8;
+width: 100%;
+left: 0px;
+bottom: 0px;
+}
+
+.carousel-indicators {
+
+    bottom: -9px;
 }

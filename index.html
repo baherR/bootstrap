@@ -8,19 +8,42 @@
   <title>Apprendre DEV</title>
 </head>
 <body>
+<!-- ********************* -->
+<!-- Barre de menu -->
+<!-- ********************* -->
 <nav class="navbar navbar-inverse">
     <div class="container">
 
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.html">Apprendre DEV</a>
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bar-nav-principale" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="glyphicon glyphicon-menu-hamburger color-mob-navbar"></span>
-          </button>
-              
+        <div class="navbar-header ">
+            
+            <!-- AMELIORATION A AJOUTER POUR LE BOUTON DE RECHERCHE -->    
+            <button class="align-search-nav-bar navbar-toggle collapsed" aria-expanded="false" data-target="#SearchMenu" data-toggle="collapse">
+                <i class="glyphicon glyphicon-search color-mob-navbar" aria-hidden="true"></i> 
+            </button>
+            <!-- /AMELIORATION A AJOUTER POUR LE BOUTON DE RECHERCHE -->    
+            <a class="navbar-brand title-site" href="#">Apprendre DEV</a>                  
+           
+            <button class="navbar-toggle collapsed" aria-expanded="false" type="button" data-target="#MainMenu" data-toggle="collapse">
+                <span class="glyphicon glyphicon-menu-hamburger color-mob-navbar" aria-hidden="true"></span>
+ 
+            </button>
         </div>
 
-        <div class="collapse navbar-collapse" id="bar-nav-principale">    
+            <!-- formulaire recherche -->
+          
+        <!-- AMELIORATION A AJOUTER POUR LE FORMULAIRE DE RECHERCHE -->  
+        <form class="navbar-form collapse" id="SearchMenu" role="search" aria-expanded="false">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button" data-original-title="" title="">Go!</button>
+                </span>
+            </div>
+        </form>
+        <!-- /AMELIORATION A AJOUTER POUR LE FORMULAIRE DE RECHERCHE -->
+
+        <div class="navbar-collapse collapse" id="MainMenu" aria-expanded="false" style="height: 1px;">
+
             <ul class="nav navbar-nav">
                 <li class="active">  <a href="index.html">Accueil<span class="sr-only">(current)</span></a> </li>
                 <li class="dropdown">  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language <span class="caret"></span></a>
@@ -78,7 +101,10 @@
     </div>    
 </nav>
 
-<div id="carousel-appdev" class="carousel slide" data-ride="carousel">
+<!-- ********************* -->
+<!-- Carrousel-->
+<!-- ********************* -->
+<div id="carousel-appdev" class="carousel slide m-t-20" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-appdev" data-slide-to="0" class="active"></li>
@@ -93,31 +119,31 @@
     <div class="item active">
       <img src="img/drupal-8_carousel.png" alt="apprendre drupal8">
       <div class="carousel-caption">
-        Drupal8 Devenir le Maitre
+        <h1>Drupal8 Devenir le Maitre</h1>
       </div>
     </div>
     <div class="item">
       <img src="img/JAVA_carousel.jpg" alt="apprendre JAVA">
       <div class="carousel-caption">
-        Apprendre la POO avec JAVA
+        <h1>Apprendre la POO avec JAVA</h1>
       </div>
     </div>
     <div class="item">
       <img src="img/gimp_carousel.png" alt="apprendre gimp">
       <div class="carousel-caption">
-        FAire ces premiers pas avec Gimp
+        <h1>FAire ces premiers pas avec Gimp</h1>
       </div>
     </div>
     <div class="item">
       <img src="img/laravel_carousel.png" alt="apprendre laravel">
       <div class="carousel-caption">
-        Découvrir les secrets de Laravel
+        <h1>Découvrir les secrets de Laravel</h1>
       </div>
     </div>
     <div class="item">
       <img src="img/prestashop_carousel.png" alt="apprendre prestashop">
       <div class="carousel-caption">
-        Votre premier E-commerce en 2 click
+        <h1>Votre premier E-commerce en 2 click</h1>
       </div>
     </div>
 
@@ -134,6 +160,9 @@
   </a>
 </div>
 
+<!-- ********************* -->
+<!-- Contenu-->
+<!-- ********************* -->
 <div class="container">
 
     <div class="row">
@@ -211,7 +240,7 @@
     </div>
 
     <div class="panel panel-primary">
-          <div class="panel-heading">Quoi de 9</div>
+          <div class="panel-heading">Quoi de 9 </div>
           <div class="panel-body">
             <div class="media">
               <div class="media-left">
@@ -221,6 +250,7 @@
               </div>
               <div class="media-body">
                 <h4 class="media-heading">Drupal Theming</h4>
+                <p><span class="label label-success">Nouveau</span></p>
                 <p>Une nouvelle sur le theming de Drupal 8. Nous allons créer un simple template, ensuite nous allons les ajouter dans le dossier theme.... <a href="#">Plus</a></p>
               </div>
             </div>
